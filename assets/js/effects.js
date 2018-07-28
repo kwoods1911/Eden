@@ -17,4 +17,6 @@ $(document).ready(function(){
 			function(){$(this).find('.summary_best_seller:first').fadeOut(800);}
 			)
 
+	
+
 })

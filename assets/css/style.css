@@ -16,7 +16,7 @@ header{
 
 .container{
 	margin:0 auto;
-	width:80%;
+	width:95%;
 }
 
 .top_banner{
@@ -125,7 +125,7 @@ header{
 }
 
 
-.bg_image1{
+/*.bg_image1{
 	margin:0;
 	position: absolute;
 	background: url('images/showcase_1.jpg');
@@ -135,7 +135,7 @@ header{
 	width:100%;
 	height:100%;
 	z-index:-1;
-}
+}*/
 
 .bg_image2{
 	margin:0;
@@ -149,7 +149,7 @@ header{
 	z-index:-3;
 }
 
-.bg_image3{
+/*.bg_image3{
 	margin:0;
 	position: absolute;
 	background: url('images/showcase_3.jpg');
@@ -159,7 +159,7 @@ header{
 	width:100%;
 	height:100%;
 	z-index:-4;
-}
+}*/
 
 
 .title{
@@ -188,9 +188,9 @@ header{
 }
 
 #best_sellers{
-	text-align: center;
 	height:auto;
-	/*background-color: red;*/
+	width: 100%;
+	text-align: center;
 	background-color: #2e2300; /*bark*/
 }
 
@@ -235,7 +235,6 @@ header{
 	display: inline-block;
 	height:400px;
 	width:400px;
-	background-color: green;
 	margin:10px;
 	text-align: center;
 }
@@ -255,7 +254,6 @@ header{
 
 .summary_best_seller{
 	display:none;
-	/*position:relative;*/
 	position:absolute;
 	text-align: center;
 	z-index: 1;
@@ -270,10 +268,6 @@ header{
 	padding-top: 200px;
 }
 
-
-
-
-
 #f_products{
 	height:auto;
 	background-color: #6e6702; /*seaweed*/
@@ -285,7 +279,6 @@ header{
 	/*float:left;*/
 	height:400px;
 	width:400px;
-	background-color: red;
 	margin:10px;
 }
 
@@ -467,7 +460,7 @@ footer p{
 }
 
 
-@media(min-width: 750px){
+@media(min-width: 768px){
 
 	.dropdown_btn{
 		display: none;
@@ -475,7 +468,6 @@ footer p{
 
 	.dsk-top_nav{
 		display: inline;
-		/*margin-left: 100px;*/
 		text-align: center;
 	}
 
