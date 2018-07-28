@@ -16,7 +16,7 @@ header{
 
 .container{
 	margin:0 auto;
-	width:95%;
+	/*width:95%;*/
 }
 
 .top_banner{
@@ -28,14 +28,14 @@ header{
 
 .mobile_logo{
 	float: left;
-	width:10%;
+	width:auto;
 	margin:0 15px;
 	position: absolute;
 }
 .logo{
 	background-color: #924402;
 	margin:0 auto;
-	width:90%;
+	width:auto;
 	text-align: center;
 	height:100%;
 	padding:5px 30px;
@@ -164,7 +164,7 @@ header{
 
 .title{
 	margin:0;
-	padding-top:300px;
+	padding-top:130px;
 	font-size:7em;
 	font-family: 'Roboto Slab', serif;
 	color:#fff;
@@ -174,8 +174,7 @@ header{
 	margin:0;
 	padding-top:50px;
 	font-size:1.5em;
-	/*font-family: 'Roboto Slab', serif;*/
-	    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#fff;
 }
 
@@ -189,13 +188,12 @@ header{
 
 #best_sellers{
 	height:auto;
-	width: 100%;
+	width: auto;
 	text-align: center;
 	background-color: #2e2300; /*bark*/
 }
 
 #img1{
-	margin:0;
 	background: url('images/tp_1.jpg');
 	background-position:center;
 	background-repeat: no-repeat;
@@ -203,6 +201,7 @@ header{
 	width:100%;
 	height:100%;
 	z-index:-1;
+
 }
 
 #img2{
@@ -231,11 +230,10 @@ header{
 
 
 .top_seller{
-	position: relative;
-	display: inline-block;
 	height:400px;
-	width:400px;
-	margin:10px;
+	width:300px;
+	margin:0 auto;
+	padding: 10px 0;
 	text-align: center;
 }
 
@@ -254,18 +252,20 @@ header{
 
 .summary_best_seller{
 	display:none;
-	position:absolute;
+	position:relative;
 	text-align: center;
 	z-index: 1;
 	height:346px;
-	width:400px;
+	width:100%;
 	background: rgba(222, 103, 3, 0.52);
+	overflow: hidden;
 }
 
 .summary_best_seller p{
-	margin:0;
+	margin:0 auto;
 	color:white;
 	padding-top: 200px;
+	width:auto;
 }
 
 #f_products{
@@ -275,11 +275,10 @@ header{
 }
 
 .featured_item{
-	display: inline-block;
-	/*float:left;*/
 	height:400px;
-	width:400px;
-	margin:10px;
+	width:300px;
+	padding: 20px 0;
+	margin:0 auto;
 }
 
 .featured_item h4{
@@ -374,6 +373,7 @@ header{
 	text-align: center;
 	background-color: #7d4427; /*earth*/
 	height: auto;
+		width: auto;
 	margin:0;
 	padding-bottom:40px;
 	border-top: 4px solid #2e2300;
@@ -438,6 +438,7 @@ footer p{
 }
 
 .bottom_nav{
+	padding:0;
 	display: inline;
 	margin-top: 30px;
 }
@@ -446,7 +447,7 @@ footer p{
 	display: inline;
 	padding:10px 10px;
 	margin:10px;
-	font-size:20px;
+	font-size:15px;
 }
 
 .bottom_nav li a{
@@ -493,6 +494,32 @@ footer p{
 	text-decoration: underline;
 	color:rgba(15,111,0,0.8);
 }
+
+.grid_top_seller{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-auto-rows: auto;
+	grid-column-gap: 1em;
+
+}
+
+.top_seller{
+	width: 75%;
+}
+
+.featured_grid{
+	display:grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-auto-rows: auto;
+	grid-column-gap: 1em;
+}
+
+.featured_item{
+	width:80%;
+}
+
+
+
 	
 
 
